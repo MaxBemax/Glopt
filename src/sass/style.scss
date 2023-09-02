@@ -2,7 +2,6 @@
 @import 'libs/font';
 
 @import 'base/variables';
-@import 'base/mixins';
 
 
 
@@ -19,4 +18,6 @@
 }
 
 
-@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
