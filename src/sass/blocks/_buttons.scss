@@ -11,4 +11,12 @@
    font-weight: 400;
    line-height: 22px;
    text-transform: uppercase;
+   &_big {
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 230px;
+    height: 57px;
+    font-size: 15px;
+    font-weight: 700;
+   }
  }
