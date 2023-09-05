@@ -11,6 +11,9 @@
    font-weight: 400;
    line-height: 22px;
    text-transform: uppercase;
+   &:hover {
+    box-shadow: 3px 3px 20px yellow;
+   }
    &_big {
     margin: 0 auto;
     margin-top: 35px;

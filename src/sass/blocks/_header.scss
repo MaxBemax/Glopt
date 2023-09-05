@@ -24,6 +24,11 @@
       font-size: 15px;
       line-height: 17px;
       font-weight: 400;
+      &:hover {
+         cursor: pointer;
+         color: red;
+         text-decoration: underline;
+      }
    }
    &__contact {
       width: 191px;
@@ -43,5 +48,9 @@
       font-weight: 700;
       line-height: 24px;
       text-decoration: none;
+      &:hover {
+         color: aqua;
+         text-decoration: underline;
+      }
    }
 }
