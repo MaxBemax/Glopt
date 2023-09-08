@@ -1,0 +1,19 @@
+.delivery {
+   min-height: 558px;
+   padding: 50px 0 55px 0;
+   &__divider {
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 148px;
+      height: 1px;
+      background-color: $main-color;
+   }
+   &__promo {
+      margin: 15px 130px 0 130px;
+      text-align: center;
+      font-size: 21px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #3A3A3A;
+   }
+}

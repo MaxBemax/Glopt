@@ -1,0 +1,15 @@
+.title {
+   margin: 0;
+   color: #2E2E2E;
+   text-align: center;
+   font-size: 26px;
+   font-weight: 700;
+   text-transform: uppercase;
+   &_main {
+      margin-top: 25px;
+      color: $main-color;
+      text-align: center;
+      font-size: 72px;
+      line-height: normal;
+   }
+}
