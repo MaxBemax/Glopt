@@ -17,6 +17,17 @@
    margin: 0 auto;
 }
 
+.circle {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 102px;
+   height: 102px;
+   border-radius: 100%;
+   border: 1px solid #ffffff
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -24,3 +35,4 @@
 @import 'blocks/benefits';
 @import 'blocks/title';
 @import 'blocks/delivery';
+@import 'blocks/agent';
