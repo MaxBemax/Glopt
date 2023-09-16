@@ -1,0 +1,13 @@
+.price {
+   min-height: 786px;
+   padding: 60px 0;
+   &__promo {
+      margin-top: 35px;
+      padding: 0 210px;
+      text-align: center;
+      font-size: 21px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #2E2E2E;
+   }
+}

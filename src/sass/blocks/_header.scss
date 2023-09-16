@@ -5,10 +5,11 @@
    align-items: center;
    &__logo {
       width: 100px;
+      height: 100px;
       img {
          width: 100%;
          height: 100%;
-         object-fit: cover;
+         object-fit: contain;
       }
    }
    &__menu {
@@ -28,7 +29,7 @@
       font-weight: 400;
       &:hover {
          cursor: pointer;
-         color: red;
+         color: $main-color;
          text-decoration: underline;
       }
    }
