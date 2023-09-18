@@ -25,7 +25,11 @@
    width: 102px;
    height: 102px;
    border-radius: 100%;
-   border: 1px solid #ffffff
+   border: 1px solid #ffffff;
+   &_main {
+      margin-top: 20px;
+      border: 1px solid $main-color;
+   }
 }
 
 

@@ -2,7 +2,7 @@
    display: block;
    width: 160px;
    height: 45px;
-   border-radius: 10px;
+   border-radius: 25px;
    background-color: $main-color;
    border: none;
    color: #FFF;
@@ -21,5 +21,8 @@
     height: 57px;
     font-size: 15px;
     font-weight: 700;
+   }
+   &_cost {
+    margin: 25px auto;
    }
  }
