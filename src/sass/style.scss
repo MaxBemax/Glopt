@@ -1,5 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
+@import 'libs/slick';
+@import 'libs/slick-theme';
+
 
 @import 'base/variables';
 
@@ -43,4 +46,4 @@
 @import 'blocks/price';
 @import 'blocks/manager';
 @import 'blocks/scheme';
-@import 'blocks/comments';
+@import 'blocks/carousel';
