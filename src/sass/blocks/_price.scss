@@ -1,8 +1,15 @@
 .price {
    min-height: 946px;
    padding: 60px 0;
+   &__divider {
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 148px;
+      height: 2px;
+      background-color: $main-color;
+   }
    &__promo {
-      margin-top: 35px;
+      margin-top: 15px;
       padding: 0 210px;
       text-align: center;
       font-size: 21px;

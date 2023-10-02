@@ -1,11 +1,78 @@
 .carousel {
    min-height: 355px;
    padding: 50px 0 65px 0;
+   &__divider {
+      margin: 0 auto;
+      margin-top: 25px;
+      width: 148px;
+      height: 2px;
+      background-color: $main-color;
+   }
    &__promo {
-      margin-top: 45px;
+      margin-top: 15px;
       text-align: center;
       font-size: 21px;
       font-weight: 300;
       color: #2e2e2e;
+   }
+   &__inner {
+      position: relative;
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 30px;
+   }
+   &__item-wrapper {
+      display: flex;
+      flex-direction: column;
+   }
+   &__icon {
+      height: 114px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+      }
+   }
+   &__comment {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #3a3a3a;
+      span {
+         display: block;
+         text-align: center;
+         font-size: 18px;
+         line-height: 22px;
+         font-weight: 700;
+      }
+   }
+   .slick-prev {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      top: 11%;
+      transform: translate(100px,-11%);
+      left: 15%;
+      z-index: 1;
+      img {
+         width: 14px;
+         height: 46px;
+      }
+   }
+   .slick-next {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      top: 11%;
+      transform: translate(100px,-11%);
+      right: 50%;
+      img {
+         width: 14px;
+         height: 46px;
+      }
    }
 }
