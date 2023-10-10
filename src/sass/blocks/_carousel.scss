@@ -1,6 +1,10 @@
 .carousel {
    min-height: 355px;
    padding: 50px 0 65px 0;
+
+   .container{
+      max-width: 1330px;
+   }
    &__divider {
       margin: 0 auto;
       margin-top: 25px;
@@ -15,21 +19,57 @@
       font-weight: 300;
       color: #2e2e2e;
    }
+   &__inner-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
    &__inner {
       position: relative;
-      width: 600px;
-      margin: 0 auto;
+      width: 1330px;
       margin-top: 30px;
+      
+   }
+   .slick-prev, .slick-next {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      top: 11%;
+      transform: translate(100px,-11%);
+      left: 34%;
+      z-index: 1;
+      img {
+         width: 14px;
+         height: 46px;
+      }
+   }   
+   .slick-next {
+      right: 50%;
+      left: auto;
+   }
+   &__item {
+      width:360px;
+      opacity: 0.3;
+   }
+   .slick-center {
+      width: 520px;
+      opacity: 1;
+
+      .carousel__item-wrapper{
+         transform: scale(1);
+      }
    }
    &__item-wrapper {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      transform: scale(0.7);
    }
    &__icon {
+      width: 114px;
       height: 114px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       img {
          width: 100%;
          height: 100%;
@@ -37,42 +77,16 @@
       }
    }
    &__comment {
+      width: 490px;
       text-align: center;
-      margin-top: 20px;
       font-size: 14px;
+      line-height: 22px;
       font-weight: 300;
       color: #3a3a3a;
       span {
          display: block;
-         text-align: center;
          font-size: 18px;
-         line-height: 22px;
          font-weight: 700;
-      }
-   }
-   .slick-prev {
-      position: absolute;
-      border: none;
-      background-color: transparent;
-      top: 11%;
-      transform: translate(100px,-11%);
-      left: 15%;
-      z-index: 1;
-      img {
-         width: 14px;
-         height: 46px;
-      }
-   }
-   .slick-next {
-      position: absolute;
-      border: none;
-      background-color: transparent;
-      top: 11%;
-      transform: translate(100px,-11%);
-      right: 50%;
-      img {
-         width: 14px;
-         height: 46px;
       }
    }
 }
