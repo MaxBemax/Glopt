@@ -1,6 +1,6 @@
  .button {
    display: block;
-   width: 160px;
+   width: 180px;
    height: 45px;
    border-radius: 25px;
    background-color: $main-color;
@@ -24,5 +24,9 @@
    }
    &_cost {
     margin: 25px auto;
+    width: 160px;
+   }
+   &_quest {
+    margin-top: 15px;
    }
  }

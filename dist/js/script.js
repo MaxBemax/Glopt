@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.carousel__inner').slick({
     speed: 1200,
-    infinite: false,
+    infinite: true,
     slidesToShow: 1,
     centerMode: true,
     variableWidth: true,

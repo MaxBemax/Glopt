@@ -6,6 +6,12 @@
    line-height: 26px;
    font-weight: 700;
    text-transform: uppercase;
+   &_order {
+      font-size: 28px;
+      line-height: 23px;
+      font-weight: 400;
+      color: #3a3a3a;
+   }
    &_main {
       margin-top: 25px;
       color: $main-color;
@@ -18,10 +24,10 @@
       color: #ffffff;
       text-transform: none;
    }
-   &_order {
-      font-size: 28px;
-      line-height: 23px;
-      font-weight: 400;
-      color: #3a3a3a;
+   &_white2 {
+      font-size: 19px;
+      line-height: 19px;
+      color: #ffffff;
    }
+   
 }
