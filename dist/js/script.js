@@ -25,3 +25,20 @@ $(document).ready(function(){
 		return false;
 	});
  })
+ 
+
+ const hamburger = document.querySelector('.hamburger'),
+ 	menu = document.querySelector('.header__menu'),
+ 	menuItem = document.querySelectorAll('.header__item');
+
+ hamburger.addEventListener('click', () => {
+ 	hamburger.classList.toggle('hamburger_active');
+ 	menu.classList.toggle('header__menu_active');
+ });
+
+ menu.addEventListener('click', () => {
+ 	menu.classList.toggle('header__menu_active');
+ 	hamburger.classList.toggle('hamburger_active');
+ });
+
+
