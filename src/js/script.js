@@ -30,6 +30,7 @@ $(document).ready(function(){
  const hamburger = document.querySelector('.hamburger'),
  	menu = document.querySelector('.header__menu'),
  	menuItem = document.querySelectorAll('.header__item');
+ 	closeElem = document.body
 
  hamburger.addEventListener('click', () => {
  	hamburger.classList.toggle('hamburger_active');
@@ -40,5 +41,4 @@ $(document).ready(function(){
  	menu.classList.toggle('header__menu_active');
  	hamburger.classList.toggle('hamburger_active');
  });
-
 

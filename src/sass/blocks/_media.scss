@@ -26,9 +26,23 @@
       &__subtitle {
          font-size: 40px;
       }
+      &__wrapper {
+         justify-content: space-around;
+         flex-direction: row;
+         flex-wrap: wrap;
+         row-gap: 25px;
+      }
       &__descr {
          width: 240px;
-         font-size: 15px;
+         font-size: 14px;
+      }
+   }
+   .benefits {
+      &__wrapper {
+         margin-top: 35px;
+      }
+      &__descr {
+         width: 300px;
       }
    }
 }
@@ -70,8 +84,18 @@
          width: 300px;
       }
       &__descr {
-         width: 170px;
-         font-size: 13px;
+         width: 164px;
+         font-size: 14px;
+      }
+   }
+   .benefits {
+      &__descr {
+         width: 240px;
+      }
+   }
+   .delivery {
+      &__promo {
+         margin: 15px 60px 0 60px;
       }
    }
 }
@@ -80,7 +104,7 @@
       max-width: 540px;
    }
    .header {
-      justify-content: space-between;
+      justify-content: space-around;
       &__menu {
          position: fixed;
          flex-direction: column;
@@ -159,8 +183,41 @@
          min-height: 50px;
       }
       &__descr {
-         width: 130px;
-         font-size: 12px;
+         width: 185px;
+      }
+   }
+   .benefits {
+      padding: 35px 0;
+      &__wrapper {
+         margin-top: 25px;
+      }
+      &__item {
+         margin-bottom: 25px;
+      }
+      &__icon-wrapper {
+         width: 50px;
+         height: 50px;
+      }
+      &__descr {
+         width: 175px;
+      }
+   }
+   .delivery {
+      padding: 40px 0;
+      &__wrapper {
+         margin-top: 25px;
+         justify-content: space-around;
+         flex-direction: row;
+         flex-wrap: wrap;
+      }
+      &__item {
+         width: 320px;
+      }
+      &__photo {
+         height: 175px;
+      }
+      &__descr {
+         margin-top: 25px;
       }
    }
 }
@@ -168,5 +225,50 @@
    .container {
       width: 100%;
       padding: 0 10px;
+   }
+   .title_main {
+      margin-top: 10px;
+      font-size: 35px;
+   }
+   .promo {
+      &__suptitle {
+         margin-top: 15px;
+         font-size: 20px;
+      }
+      &__subtitle {
+         font-size: 25px;
+      }
+      &__divider {
+         margin-top: 20px;
+         width: 320px;
+      }
+      &__line {
+         width: 130px;
+      }
+   }
+   .benefits {
+      padding: 35px 0 20px 0;
+      &__wrapper {
+         justify-content: space-around;
+      }
+      &__descr {
+         width: 250px;
+         font-size: 14px;
+      }
+   }
+   .delivery {
+      padding: 20px 0;
+      &__promo {
+         margin: 15px 15px 0 15px;
+         font-size: 20px;
+         line-height: 22px;
+      }
+      &__wrapper {
+         margin-top: 20px;
+         gap: 20px;
+      }
+      &__item {
+         width: 280px;
+      }
    }
 }
