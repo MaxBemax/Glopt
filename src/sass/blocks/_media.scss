@@ -45,6 +45,19 @@
          width: 300px;
       }
    }
+   .price {
+      &__wrapper {
+         justify-content: space-around;
+         flex-wrap: wrap;
+         row-gap: 35px
+      }
+      &__form {
+         width: 650px;
+         input {
+            width: 210px;
+         }
+      }
+   }
 }
 @media (max-width: 992px) {
    .container {
@@ -96,6 +109,17 @@
    .delivery {
       &__promo {
          margin: 15px 60px 0 60px;
+      }
+   }
+   .price {
+      &__promo {
+         padding: 0 110px;
+      }
+   }
+   .scheme {
+      &__wrapper {
+         justify-content: space-around;
+         gap: 20px;
       }
    }
 }
@@ -203,7 +227,7 @@
       }
    }
    .delivery {
-      padding: 40px 0;
+      padding: 35px 0;
       &__wrapper {
          margin-top: 25px;
          justify-content: space-around;
@@ -218,6 +242,50 @@
       }
       &__descr {
          margin-top: 25px;
+      }
+   }
+   .agent {
+      padding: 50px 0;
+      &__descr {
+         padding: 0 50px;
+      }
+   }
+   .price {
+      padding: 35px 0;
+      &__promo {
+         padding: 0 60px;
+      }
+      &__wrapper {
+         margin-top: 25px;
+         justify-content: space-between;
+         row-gap: 25px;
+      }
+      &__item {
+         width: 255px;
+      }
+      &__cost {
+         span {
+            font-size: 26px;
+            line-height: 26px;
+         }
+      }
+      &__advice {
+         margin-top: 35px;
+      }
+      &__form {
+         width: 520px;
+         input {
+            width: 170px;
+            &:nth-child(3) {
+               margin-bottom: 20px;
+            }
+         }
+      }
+   }
+   .manager {
+      padding: 50px 0;
+      &__descr {
+         padding: 0 65px;
       }
    }
 }
@@ -257,7 +325,6 @@
       }
    }
    .delivery {
-      padding: 20px 0;
       &__promo {
          margin: 15px 15px 0 15px;
          font-size: 20px;
@@ -270,5 +337,51 @@
       &__item {
          width: 280px;
       }
+   }
+   .agent {
+      padding: 35px 0;
+      .title_white {
+         margin-top: 15px;
+      }
+      &__descr {
+         padding: 0 10px;
+         margin-top: 15px;
+         font-size: 17px;
+         line-height: 26px;
+      }
+   }
+   .price {
+      padding: 35px 0;
+      &__promo {
+         padding: 0 10px;
+         font-size: 18px;
+         line-height: 26px;
+      }
+      &__wrapper {
+         flex-direction: column;
+         align-items: center;
+     }
+     &__form {
+      width: 300px;
+         input {
+            margin-bottom: 20px;
+            width: 100%;
+         }
+     }
+   }
+   .manager {
+      padding: 35px 0;
+      .title_white {
+         margin-top: 15px;
+      }
+      &__descr {
+         padding: 0 10px;
+         margin-top: 15px;
+         font-size: 17px;
+         line-height: 26px;
+      }
+   }
+   .scheme {
+      padding: 35px 0;
    }
 }
