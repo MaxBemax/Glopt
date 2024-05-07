@@ -49,13 +49,47 @@
       &__wrapper {
          justify-content: space-around;
          flex-wrap: wrap;
-         row-gap: 35px
+         row-gap: 35px;
       }
       &__form {
          width: 650px;
          input {
             width: 210px;
          }
+      }
+   }
+   .carousel {
+      padding: 50px 0;
+      .container {
+         max-width: 1140px;
+      }
+      &__inner {
+         width: 100%;
+      }
+      .slick-prev {
+         left: 29%;
+      }
+      .slick-center {
+         width: 350px;
+      }
+      &__comment {
+         width: 350px;
+      }
+   }
+}
+@media (max-width: 1140px) {
+   .carousel {
+      .container {
+         max-width: 960px;
+      }
+      &__inner {
+         width: 100%;
+      }
+      .slick-center {
+         width: 340px;
+      }
+      &__comment {
+         width: 300px;
       }
    }
 }
@@ -76,10 +110,10 @@
          font-size: 16px;
       }
       &__contact {
-          display: none;
+         display: none;
       }
       .button {
-          display: none;
+         display: none;
       }
    }
    .title_main {
@@ -122,6 +156,17 @@
          gap: 20px;
       }
    }
+   .carousel {
+      .container {
+         max-width: 720px;
+      }
+      &__inner {
+         width: 500px;
+      }
+      .slick-prev {
+         left: 9%;
+      }
+   }
 }
 @media (max-width: 768px) {
    .container {
@@ -139,7 +184,7 @@
          width: 50%;
          height: 100vh;
          padding: 20px 15px;
-         background-color: rgba(0, 0, 0 , .8);
+         background-color: rgba(0, 0, 0, 0.8);
          transition: 0.6s all;
          &_active {
             left: 0;
@@ -155,7 +200,7 @@
             display: block;
             height: 4px;
             width: 100%;
-            background-color:#FFF;
+            background-color: #fff;
             margin-bottom: 8px;
             transition: 0.5s all;
          }
@@ -288,6 +333,11 @@
          padding: 0 65px;
       }
    }
+   .carousel {
+      .container {
+         max-width: 540px;
+      }
+   }
 }
 @media (max-width: 576px) {
    .container {
@@ -360,14 +410,14 @@
       &__wrapper {
          flex-direction: column;
          align-items: center;
-     }
-     &__form {
-      width: 300px;
+      }
+      &__form {
+         width: 300px;
          input {
             margin-bottom: 20px;
             width: 100%;
          }
-     }
+      }
    }
    .manager {
       padding: 35px 0;
@@ -383,5 +433,11 @@
    }
    .scheme {
       padding: 35px 0;
+   }
+   .carousel {
+      .container {
+         width: 100%;
+         padding: 0 10px;
+      }
    }
 }

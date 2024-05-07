@@ -3,10 +3,22 @@ $(document).ready(function(){
 		speed: 1200,
 		infinite: true,
 		slidesToShow: 1,
+		slidesToScroll: 1,
 		centerMode: true,
 		variableWidth: true,
 		prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.png"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.png"></button>'
+		nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.png"></button>',
+		responsive: [
+			{
+				breakpoint: 992,
+			  settings: {
+				 centerMode: true,
+				 variableWidth: true,
+				 arrows: true
+				//  dots: true
+			  }
+			}
+		 ]
 	});
 
 	//smooth scroll and page up
